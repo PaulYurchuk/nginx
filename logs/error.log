@@ -1,0 +1,26 @@
+2017/06/01 14:50:26 [emerg] 3319#0: bind() to 192.168.122.150:80 failed (99: Cannot assign requested address)
+2017/06/01 15:03:47 [emerg] 758#0: "vhost_traffic_status_display" directive is not allowed here in /home/paul/nginx/conf/nginx.conf:21
+2017/06/01 15:05:28 [emerg] 3334#0: "vhost_traffic_status_display" directive is not allowed here in /home/paul/nginx/conf/nginx.conf:21
+2017/06/01 15:08:31 [error] 3503#0: *1 open() "/home/paul/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.6.102.58, server: 10.6.102.58, request: "GET /favicon.ico HTTP/1.1", host: "10.6.102.58:8080"
+2017/06/01 15:08:31 [error] 3503#0: *1 open() "/home/paul/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.6.102.58, server: 10.6.102.58, request: "GET /favicon.ico HTTP/1.1", host: "10.6.102.58:8080"
+2017/06/01 15:17:14 [error] 4255#0: *1 open() "/home/paul/nginx/html/status" failed (2: No such file or directory), client: 10.6.102.58, server: 10.6.102.58, request: "GET /status HTTP/1.1", host: "10.6.102.58:8080", referrer: "http://10.6.102.58:8080/"
+2017/06/01 15:17:16 [error] 4255#0: *1 open() "/home/paul/nginx/html/admin" failed (2: No such file or directory), client: 10.6.102.58, server: 10.6.102.58, request: "GET /admin HTTP/1.1", host: "10.6.102.58:8080", referrer: "http://10.6.102.58:8080/"
+2017/06/01 15:17:19 [error] 4255#0: *1 open() "/home/paul/nginx/html/pictures/01.jpg" failed (2: No such file or directory), client: 10.6.102.58, server: 10.6.102.58, request: "GET /pictures/01.jpg HTTP/1.1", host: "10.6.102.58:8080", referrer: "http://10.6.102.58:8080/"
+2017/06/01 15:17:21 [error] 4255#0: *1 open() "/home/paul/nginx/html/pictures/01.gif" failed (2: No such file or directory), client: 10.6.102.58, server: 10.6.102.58, request: "GET /pictures/01.gif HTTP/1.1", host: "10.6.102.58:8080", referrer: "http://10.6.102.58:8080/"
+2017/06/01 15:19:54 [error] 4407#0: *1 open() "/home/paul/nginx/html/status" failed (2: No such file or directory), client: 10.6.102.58, server: 10.6.102.58, request: "GET /status HTTP/1.1", host: "10.6.102.58:8080", referrer: "http://10.6.102.58:8080/"
+2017/06/01 15:19:57 [error] 4407#0: *1 open() "/home/paul/nginx/html/admin" failed (2: No such file or directory), client: 10.6.102.58, server: 10.6.102.58, request: "GET /admin HTTP/1.1", host: "10.6.102.58:8080", referrer: "http://10.6.102.58:8080/"
+2017/06/01 15:23:00 [emerg] 4593#0: unknown log format "main" in /home/paul/nginx/conf/nginx.conf:25
+2017/06/01 15:45:00 [emerg] 5065#0: unexpected "}" in /home/paul/nginx/conf/nginx.conf:52
+2017/06/01 15:46:24 [error] 5115#0: *1 open() "/home/paul/nginx/html/admin" failed (2: No such file or directory), client: 10.6.102.58, server: 10.6.102.58, request: "GET /admin HTTP/1.1", host: "10.6.102.58:8080", referrer: "http://10.6.102.58:8080/"
+2017/06/01 15:46:26 [error] 5115#0: *1 open() "/home/paul/nginx/html/status" failed (2: No such file or directory), client: 10.6.102.58, server: 10.6.102.58, request: "GET /status HTTP/1.1", host: "10.6.102.58:8080", referrer: "http://10.6.102.58:8080/"
+2017/06/01 15:56:13 [emerg] 5302#0: unknown directive "locatin" in /home/paul/nginx/conf/nginx.conf:39
+2017/06/01 15:57:26 [emerg] 5342#0: unknown directive "locatin" in /home/paul/nginx/conf/nginx.conf:39
+2017/06/01 16:01:28 [emerg] 5597#0: "location" directive is not allowed here in /home/paul/nginx/conf/nginx.conf:39
+2017/06/01 16:06:16 [emerg] 5694#0: "location" directive is not allowed here in /home/paul/nginx/conf/nginx.conf:39
+2017/06/01 16:07:10 [emerg] 5735#0: "location" directive is not allowed here in /home/paul/nginx/conf/nginx.conf:46
+2017/06/01 16:08:19 [emerg] 5776#0: "location" directive is not allowed here in /home/paul/nginx/conf/nginx.conf:68
+2017/06/01 16:09:40 [emerg] 5819#0: unexpected "}" in /home/paul/nginx/conf/nginx.conf:132
+2017/06/01 16:10:44 [error] 5890#0: *1 open() "/home/paul/nginx/html/admin" failed (2: No such file or directory), client: 10.6.102.58, server: 10.6.102.58, request: "GET /admin HTTP/1.1", host: "10.6.102.58:8080", referrer: "http://10.6.102.58:8080/"
+2017/06/01 16:20:08 [crit] 6073#0: *1 crypt_r() failed (22: Invalid argument), client: 10.6.102.58, server: 10.6.102.58, request: "GET /admin HTTP/1.1", host: "10.6.102.58:8080", referrer: "http://10.6.102.58:8080/"
+2017/06/01 16:30:23 [error] 6202#0: *2 open() "/home/paul/nginx/html/sdasd" failed (2: No such file or directory), client: 10.6.102.58, server: 10.6.102.58, request: "GET /sdasd HTTP/1.1", host: "10.6.102.58:8080"
+2017/06/01 16:32:25 [error] 6202#0: *3 open() "/home/paul/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.6.102.58, server: 10.6.102.58, request: "GET /favicon.ico HTTP/1.1", host: "10.6.102.58:8080"
